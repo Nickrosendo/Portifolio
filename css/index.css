@@ -1,0 +1,76 @@
+/* HEADER */
+
+.head-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: left;
+}
+
+.head-subtitle {
+  display: inline-block;
+  text-align: left;
+}
+
+/* ALBUM */
+
+.album-body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* TECHS*/
+
+.techs-container {
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.techs-img {
+  width: 25%;
+  height: 50px;
+}
+
+/* CARD */
+
+.card-height {
+  height: calc(100% - 1.5rem);
+}
+
+/* CONTACT */
+
+.contact-img {
+  width: 80px;
+  height: 80px;
+  border: 2px solid White;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* UTILITIES */
+
+code {
+  padding: .2rem .4rem;
+  font-size: 90%;
+  color: #bd4147;
+  background-color: #f7f7f9;
+  border-radius: .25rem;
+}
+
+.bottom-align {
+  position: relative;
+  bottom: 1.25rem;
+}
